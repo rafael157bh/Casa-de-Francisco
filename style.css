@@ -1,0 +1,223 @@
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px  20px;
+    background-color: white;
+    color: rgb(75, 65, 65);
+    margin: 0;
+    border: none;
+    border-bottom: 3px solid #cab5b5;
+}
+
+.logotipo{
+    height: 60px;
+}
+
+
+.logo h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 24px;
+    margin: 0;
+}
+
+.menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: rgb(56, 40, 40);
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.menu a:hover{
+    color: #bdb89e;
+}
+
+.slideshow-container{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slide{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    object-fit: cover;
+    transition: opacity 1s ease-in-out;
+}
+
+.slide.active{
+    opacity: 1;
+}
+
+
+.historia{
+    background-color: antiquewhite;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: normal;
+    border-radius: 5px;
+    padding: 10px;
+
+}
+
+.objetivos{
+    background-color: antiquewhite;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: normal;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.trabalhos{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: normal;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.imagem{
+    width: 500px;
+    margin: 10px;
+}
+
+.pq{
+    font-weight: normal;
+    border-radius: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: antiquewhite;
+    padding: 10px;
+;
+}
+
+.doacoes{
+    background-color: antiquewhite;
+    padding: 20px;
+    margin: 30px auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.doacoes li:hover{
+    background-color: #e8dcfb;
+    transform: scale(0.97);
+    cursor: pointer;
+
+}
+
+.doacoes h3{
+    color: rgb(75, 65, 65);
+    margin-bottom: 10px;
+
+}
+
+.doacoes ul{
+    list-style: none;
+    padding: 0;
+}
+
+
+.doacoes li{
+    display:flex;
+    align-items: center;
+    gap: 10px;
+    padding: 6px 0;
+    font-size: 16px;
+    color: #444;
+
+}
+
+.doacoes li img{
+    width: 20px;
+    height: 20px;
+}
+
+.button-container{
+    height: 100% ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.button{
+    padding: 10px 20px;
+    font-size: 16px;
+    height: 60px;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: brown;
+    color:white;
+    border: none;
+}
+
+.mapa{
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #f8f8f8;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.mapa h2{
+    font-size: 24px;
+    margin-bottom: 20px;
+    color:#333;
+
+}
+
+.mapa-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mapa-container iframe{
+    width: 100%;
+    max-width: 600px;
+    height: 450px;
+    border: 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+
+
+}
+
+
+.rodape{
+    background-color: brown;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 14px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.rodape a{
+    color: white;
+    text-decoration: none;
+    margin: 0 5px;
+
+}
+
+.rodape a:hover{
+    text-decoration: underline;
+}
+
